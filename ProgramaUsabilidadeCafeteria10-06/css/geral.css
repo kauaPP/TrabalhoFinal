@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/****************************
+
+left esquerda
+bottom baixo
+widht largura
+height altura
+
+****************************/
+
+
+
+
+
+body{
+  background-color: #e6b68b;
+  width:100%;
+ /* height:100%;*/
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  height: 100%;
+  
+  overflow-x: hidden;
+
+
+}
+
+
+header {
+  background-image:linear-gradient(to left,#5b1f00,#9A5833,#c57d56) ;
+  width:99.66%;
+  height:65px;
+  
+
+
+
+  margin-bottom: 5px;
+  
+  padding-bottom: 13.5px;
+  margin-left: 3px;
+  min-height: 65px;
+
+
+ 
+ 
+  
+
+  
+  
+  /*borda curvada*/
+  border-bottom: 4px solid black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 35px;
+
+}
+
+
+
+
+
+
+nav{
+  background-image:linear-gradient(to left,#5b1f00,#c57d56,#c57d56,#c57d56,#c57d56,
+ #5b1f00 ) ;
+
+
+  
+  width:75%;
+  max-height:28px;
+  
+  height: 20px;
+  margin-left: 11%;
+  margin-top:  1.5%;
+  
+  
+  padding: 5px;
+  min-height: 15px;
+  
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  overflow:hidden;
+ 
+  
+  
+}
+
+
+
+
+/**navegação**********************************/
+
+.navegacao{ 
+  top: 0; 
+  width: 75%;
+  
+}
+
+.navegacao ul {
+  text-align:center;
+  font-size: 10px; 
+  margin-right:5%; 
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.navegacao ul li {
+  display: inline;
+
+
+}
+
+
+.navegacao ul li a {
+
+ /* margin-left:10px ;*/
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: bold;
+
+  border-left: 1.5px solid black;
+  border-right: 1.5px solid black;
+}
+
+.navegacao ul li a:link {
+ text-decoration: none;
+ color: #30503A;
+ font-size: 15px;
+}
+
+.navegacao ul li a:hover {
+ text-decoration: underline;
+color:#000000 ;
+background-image:linear-gradient(to left,#5b1f00,#9A5833,#c57d56) ;
+}
+
+.navegacao ul li a:visited {
+  color: rgb(66, 119, 66);
+}
+
+
+/* ^^ navegação ^^ */
+/**************************************/
+
+
+
+
+header>a > .logo{
+
+width:200px;
+
+
+}
+
+.icon{
+  position: absolute;
+  right: 1%;
+width: 80px;
+}
+
+.footer{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
